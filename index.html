@@ -4,68 +4,83 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Qing Liu's Site</title>
-
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for the "cover" template -->
-    <link href="assets/css/cover.css" rel="stylesheet">
-    
-    <!-- My CSS -->
+    <title>Qing Liu</title>
+    <!-- 3rd Party CSS -->
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/3rdparty/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/3rdparty/leaflet/leaflet.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/cover.css" rel="stylesheet">  <!-- Custom styles for the "cover" template -->
     <link href="assets/css/base.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
   <body>
     <div class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="cover-container">
-                <!-- Header/Nav Bar -->
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <h1 class="masthead-brand shadow">Qing Liu's Site</h1>
-                        <ul class="nav masthead-nav">
-                            <li class="active"><a href="http://qliu.github.io/"><i class="fa fa-user fa-fw"></i> I Me Mine</a></li>
-                            <li><a href="http://qliu.github.io/cv/"><i class="fa fa-file-text"></i> Curriculum Vitae</a></li>
-                            <li><a href="http://qliu.github.io/presentations/"><i class="fa fa-desktop"></i> Presentations</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Page Content -->
-                <div class="inner cover">
-                    <h1 class="shadow"><i class="fa fa-user fa-fw"></i>About Me</h1>
-                    <p class="lead"></p>
-                    <p class="lead">
-                        <a href="" class="btn btn-lg btn-default">Learn More</a>
-                    </p>
-                </div>
-                <!-- Footer -->
-                <div class="mastfoot">
-                    © Copyright &nbsp;&nbsp; 
-                    <a href="http://qliu.github.io/" target="_blank">Qing Liu</a>  &nbsp;&nbsp; 
-                    Email: <a href="mailto:Qing.Liu@du.edu">Qing.Liu@du.edu</a>
-                </div>
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <!-- Header/Nav Bar -->
+          <div class="masthead">
+            <div class="inner">
+              <div class="container">
+                <h1 class="masthead-brand shadow">Qing Liu</h1>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="http://qliu.github.io/"><i class="fa fa-user fa-fw"></i> I, Me, Mine</a></li>
+                  <li><a href="http://qliu.github.io/cv/"><i class="fa fa-file-text"></i> Curriculum Vitae</a></li>
+                  <li><a href="http://qliu.github.io/presentations/"><i class="fa fa-desktop"></i> Presentations</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="visible-md visible-lg banner-map">
+            <div id="map" class="visible-md visible-lg"></div>
+          </div>
+          <!-- Page Content -->
+          <div class="container">
+            <div class="inner cover">
+              <h1>Project I'm working on ...</h1>
+              <br/>
+              <div class="row">
+                <div class="col-lg-4">
+                  <p class="lead">Private Security Monitor (Southeast Asia)</p>
+                  <p>Private Security Monitor (Southeast Asia) Website is a project funded by Sié Chéou-Kang Center for International Security & Diplomacy, University of Denver</p>
+                  <a href="http://qliu.github.io/PrivateSecurityMonitor_SE_Asia/" class="btn btn-lg btn-default" target="_blank">Website</a>
+                </div>
+                <div class="col-lg-4">
+                  <p class="lead">Early Childhood Storyboard</p>
+                  <p>This is a Storyboard web tool for Piton Foundation's Early Childhood project.</p>
+                  <a href="http://qliu.github.io/EearlyChildhoodStoryboard/" class="btn btn-lg btn-default" target="_blank">Website</a>
+                </div>
+                <div class="col-lg-4">
+                  <p class="lead">Data Engine Metadata Application</p>
+                  <p>This is a Django application for DataEngine metadata generation and administration. This application is for Piton internal use only.</p>
+                  <a href="https://github.com/qliu/Data-Commons-MetaData-App" class="btn btn-lg btn-default"target="_blank">Github Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Footer -->
+          <div class="mastfoot">
+            <hr/>
+            © Copyright &nbsp;&nbsp; 2014 &nbsp;&nbsp;  
+            <a href="http://qliu.github.io/" target="_blank">Qing Liu</a>  &nbsp;&nbsp; 
+            Email: <a href="mailto:Qing.Liu@du.edu">Qing.Liu@du.edu</a>
+          </div>
         </div>
+      </div>
     </div>
 
-<!-- Bottom JS -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- JS for the "cover" template -->
-    <script src="assets/js/docs.min.js"></script>
+    <!-- 3rd Party JS -->
+    <script src="assets/3rdparty/jquery-1.11.1.min.js"></script>
+    <script src="assets/3rdparty/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/3rdparty/leaflet/leaflet.js"></script>
+    <script src="assets/3rdparty/docs.min.js"></script>        <!-- JS for the "cover" template -->
+    <script src="assets/js/map.js"></script>
+    <!-- Custom JS -->
   </body>
 </html>

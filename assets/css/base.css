@@ -1,8 +1,16 @@
-/*!
- * My CSS
- */
+h1.masthead-brand {
+	color: rgba(51,51,51,0.75) !important;
+	font-weight: bold;
+}
 
+.banner-map {
+	display: block;
+	width: 100%;
+}
 
-.shadow {
-    text-shadow: 4px 3px 0px #333333, 9px 8px 0px rgba(0, 0, 0, 0.15);
+#map 
+{ 
+	display: block;
+	min-height: 400px;
+	width: 100%;
 }
