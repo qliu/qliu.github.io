@@ -20,11 +20,13 @@ mapTitle.onAdd = function (map) {
 mapTitle.addTo(map);
 
 var marker_nanjing = L.marker([32.0992691,118.7377506]).addTo(map);
+var marker_zhenjiang = L.marker([32.1752387,119.4593668]).addTo(map);
 var marker_yangzhou = L.marker([32.4174549,119.4894129]).addTo(map);
 var marker_wuxi = L.marker([31.5702698,120.3126526]).addTo(map);
 var marker_suzhou = L.marker([31.3283481,120.6443024]).addTo(map);
 var marker_lianyungang = L.marker([34.5963511,119.2009735]).addTo(map);
 var marker_shanghai = L.marker([31.2243489,121.4767528]).addTo(map);
+var marker_hangzhou = L.marker([30.2613905,120.1718902]).addTo(map);
 var marker_zhangjiajie = L.marker([29.1155453,110.5265808]).addTo(map);
 var marker_kunming = L.marker([25.0213872,102.7410507]).addTo(map);
 var marker_dali = L.marker([25.5726647,100.2308035]).addTo(map);
@@ -59,6 +61,7 @@ var marker_cupertino = L.marker([37.3092499,-122.0436445]).addTo(map);
 var marker_paloalto = L.marker([37.42565,-122.13535]).addTo(map);
 var marker_austin = L.marker([30.3077609,-97.7534014]).addTo(map);
 var marker_houston = L.marker([29.8171779,-95.4012915]).addTo(map);
+var marker_maui = L.marker([20.8624968,-156.6448453]).addTo(map);
 var marker_ottawa = L.marker([45.373551,-75.6845615]).addTo(map);
 var marker_toronto = L.marker([43.7182712,-79.3777061]).addTo(map);
 var marker_niagrafalls = L.marker([43.0539325,-79.0880345]).addTo(map);
