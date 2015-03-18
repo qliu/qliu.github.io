@@ -38,6 +38,7 @@ var marker_hongkong = L.marker([22.3700556,114.1535941]).addTo(map);
 var marker_macau = L.marker([22.1634178,113.5629425]).addTo(map);
 var marker_tokyo = L.marker([35.673343,139.710388]).addTo(map);
 var marker_yokohama = L.marker([35.46195,139.61925]).addTo(map);
+var marker_nottingham = L.marker([35.2324916,139.0475768]).addTo(map);
 var marker_nagoya = L.marker([35.16805,136.9116]).addTo(map);
 var marker_kyoto = L.marker([35.0061,135.76095]).addTo(map);
 var marker_oosaka = L.marker([34.6784,135.49515]).addTo(map);
