@@ -15,7 +15,7 @@ basemap.addTo(map);
 var mapTitle = L.control({position: 'bottomleft'});
 mapTitle.onAdd = function (map) {
   this._div = L.DomUtil.create('div', 'map-title');
-  this._div.innerHTML = "<h3>Places I've been to ...</h3>";
+  this._div.innerHTML = "<h3>Places I've been ...</h3>";
   return this._div;
 };
 mapTitle.addTo(map);
