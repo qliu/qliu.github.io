@@ -2,20 +2,16 @@ var map = L.map('map',{worldCopyJump:true});
 map.setView([35.2965835,0], 3);
 map.worldCopyJump = true;
 var basemap = L.tileLayer(
-'https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
-maxZoom: 18,
-minZoom: 3,
-attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-id: 'examples.map-20v6611k',
+	'http://korona.geog.uni-heidelberg.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+	maxZoom: 19,
+	attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 basemap.addTo(map);
 
 var mapTitle = L.control({position: 'bottomleft'});
 mapTitle.onAdd = function (map) {
   this._div = L.DomUtil.create('div', 'map-title');
-  this._div.innerHTML = "<h3>Places I've been ...</h3>";
+  this._div.innerHTML = "<h3>Places I've been to ...</h3>";
   return this._div;
 };
 mapTitle.addTo(map);
